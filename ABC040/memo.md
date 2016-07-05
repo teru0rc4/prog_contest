@@ -13,6 +13,7 @@
 「D 道路の老朽化対策について」は問題といて, 半分くらいまで書いて「あれこれだと……」ってケースが見つかってダメでした.~~まぁ調べたところ, 少し改良すれば行けたらしい…?~~
 
 D問題についてありがたいお話をいただいたので, それについても今回は追記する.
+python.2.7.xでやりました.
 
 <a id="anchor1"></a>
 #### <a href="#anchor1">A 赤赤赤赤青</a>
@@ -27,7 +28,7 @@ else:
     print str(x-1)
  ```
 
-と以下そこまで考えられているなら, min使った方が効率的じゃないか?と思った.~本番でそういう風に思考が置き換えられる余裕がまだない~
+と以下そこまで考えられているなら, min使った方が効率的じゃないか?と思った.~~本番でそういう風に思考が置き換えられる余裕がまだない~~
 ``` python
 n, x = map(int, raw_input().split())
 print str(min(n-x,x-1))
@@ -122,7 +123,7 @@ print str(b[n-1])
 
 これに関してありがたいいくつかのリンクをいただいたので, それについても
 - http://algs4.cs.princeton.edu/lectures/15UnionFind.pdf
-- http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_1_A&lang=jp 
+- http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_1_A&lang=jp
 
 
 <a id="outro"></a>
